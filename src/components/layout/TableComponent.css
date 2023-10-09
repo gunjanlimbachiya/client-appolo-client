@@ -1,0 +1,39 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border: 1px solid #dfdada;
+
+  }
+
+  .table tr:nth-child(2n){
+    background-color: #f7f4f4;
+  }
+  
+  .table th,
+  .table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #dfdada;
+  }
+
+  .table td {
+     button{
+        padding: .5rem .75rem;
+        border: none;
+        color: #ffffff;
+        margin: 0px .25rem;
+        border-radius: .25rem;
+     }
+     button.primary{
+        background-color: rgb(24, 99, 221);
+     }
+     button.danger{
+        background-color: rgb(197, 14, 35);
+     }
+  }
+  .table th {
+    background-color: #222222;
+    color: #ffffff;
+  }
+  
